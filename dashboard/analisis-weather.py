@@ -35,7 +35,7 @@ if shp_file:
     plt.title("Map by Places Types")
     st.pyplot(fig)
     st.write("These are a plots of places types in Beijing."
-             " Most of the area are dominated by residential, forest, farmland, park, industrial, grass, commercial, orchard, scrub and retail"
+             " Most of the area are dominated by the list below"
              " ")
     freq = gdf['fclass'].value_counts().reset_index()
     freq_col = ['Places Types', 'Frequency']
