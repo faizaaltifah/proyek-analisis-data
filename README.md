@@ -4,7 +4,7 @@
 ```
 conda create --name cuaca-ds python=3.9
 conda activate cuaca-ds
-
+```
 **Setup Environment - Terminal**
 ---
 ```
@@ -13,7 +13,7 @@ cd proyek_analisis_cuaca
 pipenv install
 pipenv shell
 pip install -r requirements.txt
-
+```
 **Run Streamlit App**
 ---
 ```
