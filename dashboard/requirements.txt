@@ -4,3 +4,4 @@ seaborn==0.13.2
 streamlit==1.38.0
 geopandas==1.0.1
 requests
+gdown
